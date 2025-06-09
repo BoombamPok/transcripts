@@ -44,37 +44,53 @@
 },
   {
     "id": "2",
-    "title": "Internet Outage Emergency",
-    "preview": "Customer reporting complete internet outage affecting their work-from-home setup...",
+    "title": "Internet Outage Credit",
+    "preview": "Customer reporting an outage and is requesting a credit for it",
     "conversation": [
+    {
+      "role": "agent",
+      "message": "Hi! Thank you for contacting Cox. My name is Ravi. How may I help you today?"
+    },
       {
         "role": "customer",
-        "message": "My internet has been down for 3 hours!\n\nThis is completely unacceptable - I work from home and this is costing me money!"
+        "message": "Yeah, my internet was out all last night and this morning. This isn’t okay. I need a credit on my account."
       },
       {
         "role": "agent",
-        "message": "I sincerely apologize for the inconvenience you're experiencing.\n\nLet me check the status in your area immediately and see what's causing this issue."
+        "message": "I’m really sorry for the inconvenience. I understand how frustrating that must be. I can help you with that. May I have your full name, registered phone number and Cox pin?"
       },
       {
         "role": "customer",
-        "message": "I have important client calls today and I can't afford any more downtime.\n\nWhat exactly is going on?"
+        "message": "Violet Shinbach, 1234567890, 2345"
       },
       {
         "role": "agent",
-        "message": "I completely understand your frustration, and I'm taking this very seriously.\n\nI can see there's a known outage affecting your neighborhood due to equipment failure. Our technicians are already on-site working to resolve it."
+        "message": "Thank you for the information Violet. Could you please allow me a few minutes while I review your account for the credit amount?"
       },
       {
         "role": "customer",
-        "message": "When will it be fixed?\n\nI need an exact time - not an estimate!"
+        "message": "Yes, please"
       },
       {
         "role": "agent",
-        "message": "The current restoration time is 4:30 PM today.\n\nI'm escalating this to our priority queue and will personally monitor the progress. I'll also provide you with a service credit for the downtime."
+        "message": "Thank you for your patience. Violet, we can apply a credit of $10 for the loss of services due to an outage. Would you like me to go ahead and apply that for you?"
       },
       {
         "role": "customer",
-        "message": "Okay, I appreciate you taking this seriously.\n\nPlease keep me updated on the progress."
-      }
+        "message": "Thank you"
+      },
+      {
+        "role": "agent",
+        "message": "I have applied a credit of $10 on your account. Is there anything else that I can help you with?"
+      },
+    {
+      "role": "customer",
+      "message": "No thanks"
+    },
+    {
+      "role": "agent",
+      "message": "Just to recap, you messaged us today to extend your payment date and I was able to extend the date until xxth. Thank you for being a customer of Cox. We really appreciate your time and loyalty."
+    }
     ]
   },
   {
