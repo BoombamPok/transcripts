@@ -1,39 +1,47 @@
 [
-  {
-    "id": "1",
-    "title": "Billing Issue Resolution",
-    "preview": "Customer confused about monthly charges and seeking clarification on recent billing statements...",
-    "conversation": [
-      {
-        "role": "customer",
-        "message": "Hi, I'm confused about my bill this month.\n\nThere are charges I don't recognize and I'm not sure what they're for."
-      },
-      {
-        "role": "agent",
-        "message": "I'd be happy to help you understand your billing.\n\nCan you please provide me with your account number so I can take a look?"
-      },
-      {
-        "role": "customer",
-        "message": "Sure, it's AC-789456123"
-      },
-      {
-        "role": "agent",
-        "message": "Thank you. I can see your account now.\n\nThe additional charges are for the premium support package you added last month. Would you like me to explain the breakdown in detail?"
-      },
-      {
-        "role": "customer",
-        "message": "Oh yes, I completely forgot about that!\n\nCan you show me exactly what's included in that package?"
-      },
-      {
-        "role": "agent",
-        "message": "The premium support includes:\n\n• 24/7 phone support\n• Priority ticket handling\n• Dedicated account management\n• Advanced troubleshooting\n\nThe monthly fee is $29.99."
-      },
-      {
-        "role": "customer",
-        "message": "That makes perfect sense now.\n\nThank you so much for clarifying that for me!"
-      }
-    ]
-  },
+{
+  "id": "1",
+  "title": "PTP and PTP Extension",
+  "preview": "Customer unable to make payment on time and requests a payment arrangement. Agent verifies identity and confirms an extension...",
+  "conversation": [
+    {
+      "role": "agent",
+      "message": "Hi! Thank you for contacting Cox. My name is Ravi. How may I help you today?"
+    },
+    {
+      "role": "customer",
+      "message": "I won’t be able to make my payment on time. I was hoping to set up a payment arrangement or get an extension."
+    },
+    {
+      "role": "agent",
+      "message": "I understand how important this is, and I’d be happy to help. Could you please help me with your full name, registered phone number and Cox pin? Additionally, when would you like to make the payment?"
+    },
+    {
+      "role": "customer",
+      "message": "Violet Shinbach, 1234567890, 2345, 7th"
+    },
+    {
+      "role": "agent",
+      "message": "Thank you for the information Violet. Could you please allow me a few minutes while I review your account?"
+    },
+    {
+      "role": "customer",
+      "message": "Sure"
+    },
+    {
+      "role": "agent",
+      "message": "Violet, thank you for your patience. We can extend your payment date to xxth xx. Is there anything else that I can help you with?"
+    },
+    {
+      "role": "customer",
+      "message": "No thanks"
+    },
+    {
+      "role": "agent",
+      "message": "Just to recap, you messaged us today to extend your payment date and I was able to extend the date until xxth. Thank you for being a customer of Cox. We really appreciate your time and loyalty."
+    }
+  ]
+},
   {
     "id": "2",
     "title": "Internet Outage Emergency",
